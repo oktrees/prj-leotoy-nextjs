@@ -1,7 +1,7 @@
 import { connectDB } from '../../util/db';
 
 
-export default async function handler(req, res) {
+export default async function handler(req: any, res: any) {
   const client = await connectDB();
 
   const db = client.db('sample_mflix'); // 데이터베이스
