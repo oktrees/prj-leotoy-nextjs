@@ -5,7 +5,7 @@ interface Props {
 export default function Layout({ children }: Props) {
   return (
     <>
-      ttest
+      <div>twerwe</div>
       <main>{children}</main>
     </>
   )
