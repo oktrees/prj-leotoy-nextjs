@@ -1,7 +1,8 @@
+interface Props {
+  children: React.ReactNode
+}
 
-import type { AppProps } from 'next/app'
-
-export default function Layout({ children }: AppProps) {
+export default function Layout({ children }: Props) {
   return (
     <>
       ttest
